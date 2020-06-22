@@ -1,0 +1,87 @@
+[Introduction to C comments]:
+
+A comment is a set of characters that is used to document the code. A C comment
+starts with a combination of a forward slash and an asterisk ( /*) and ends with
+( */). All comments in the program are ignored by the compiler.
+
+The following example demonstrates how to use comments to document your code.
+
+==================================================
+ 1
+ 2 /* 
+ 3    This is a comment line that uses to document 
+ 4    the code. Comment can span multiple lines.
+ 5 */
+ 6
+==================================================
+
+A comment can be on the same line with the code as follows. In this case, it is an
+inline comment.
+
+
+==================================================
+ 1
+ 2 int counter; /* for the counter */
+ 3
+==================================================
+
+Comments are used at the top of the C header ( .h) files and source ( .c) files to
+describe files. It may include the version, author name, date and copyright information.
+The following comment block can be used at the top of the C header file:
+
+==================================================
+ 1
+ 2 /*
+ 3   File Name   :
+ 4   Description :
+ 5   See Also    :
+ 6   Author      :
+ 7   Copyright   : 
+ 8   Revision    :
+ 9 */
+10
+==================================================
+
+Comments are also used at the top of function to describe what it does, what its parameters
+are and its returned value. See the following example:
+
+==================================================
+ 1
+ 2 /*
+ 3 Purpose   : swaps value of two integers
+ 4 Parameters: *a and *b are integer pointer
+ 5 Return    : void
+ 6 See Also  : 
+ 7 */
+ 8 void swap(int *a, int *b);
+ 9
+==================================================
+
+An inline comment that begins with ( //) was added to the C language by the C99 standard.
+Nowadays most compilers support the inline comments. See the following example:
+
+
+==================================================
+ 1
+ 2 int counter; // for the counter
+ 3
+==================================================
+
+[How to write C comments effectively]:
+
+Comments play a very important role in your code. Comments are mainly used to document the
+complex logic of the code to make the code easier to enhance by you and other programmers.
+Comments may also be used for generating code documentation automatically.
+
+In order to use the comments effectively, you can use the following the tips:
+
+> 1 Comments should describe why a block of code or function does instead of telling how it
+    works. For example, you should comment the code say “calculate the area of a circle”
+    instead of “A product of radius and PI”.
+
+> 2 Comments help you and other programmers understand a piece of code easier and faster in
+    the future. Therefore when you write comments, ask yourself if you or other can understand
+    how it works by reading the comments only.
+
+In this tutorial, you have learned how to use C comments to document your code that makes it
+easier to understand and maintain in the future.
