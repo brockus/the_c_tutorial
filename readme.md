@@ -8,7 +8,7 @@
 The C Programming Tutorial makes it easy to learn and fun for
 all. This is merely an educational means to teach myself and
 others C programming. I invite anyone to send me suggestions
-and fix vonrabilitys or bugs.
+and fix vulnerabilities or bugs.
 
 ## Compile samples
 ------------------------------------------------
