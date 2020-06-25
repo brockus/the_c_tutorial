@@ -16,11 +16,11 @@ int main(void)
     /* calculate area of a circle */
     double area = PI * radius * radius;
 
-    /* calculate square of a circle */
-    double square = 2 * radius * PI;
+    /* calculate circumference of a circle */
+    double circumference = 2 * radius * PI;
 
     printf("Area of the circle is %8.2f\n", area);
-    printf("Square of the circle is %8.2f\n", square);
+    printf("Circumference of the circle is %8.2f\n", circumference);
 
     return EXIT_SUCCESS;
 } // end of function main
