@@ -11,6 +11,7 @@
 //
 const char *VERSION = "0.1.1";
 
+const unsigned char NO_ARGUMENTS_ARGC = 1;
 const unsigned char MAX_COMMAND_ARGS = 1;
 const unsigned char MAX_SWITCH_ARGS = 1;
 const unsigned char MAX_SUB_COMMAND_ARGS = 2;
@@ -45,7 +46,7 @@ int main(int argc, char **argv)
 {
     //
     // first we check passed args to see if there valid.
-    if (argc == MAX_COMMAND_ARGS)
+    if (argc == NO_ARGUMENTS_ARGC)
     {
         showUsage();
         return EXIT_SUCCESS;
