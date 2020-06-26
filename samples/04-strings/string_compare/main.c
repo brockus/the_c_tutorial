@@ -25,7 +25,7 @@ int main(void)
     fgets(strOne, sizeof(strOne), stdin);
 
     printf("%s\n", "Enter the second string: ");
-    fgets(strOne, sizeof(strTwo), stdin);
+    fgets(strTwo, sizeof(strTwo), stdin);
 
     int result = strcmp(strOne, strTwo);
 
