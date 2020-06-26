@@ -1,5 +1,5 @@
 <p align="center">
-<img src="resource/meson.png">
+<img src="resource/logo.png">
 </p>
 
 ## The C Programming Tutorial
