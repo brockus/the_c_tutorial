@@ -1,4 +1,4 @@
-project('Hello World!', 'c',
+project('Pointer Arrays', 'c',
     default_options: ['werror=true', 'layout=flat', 'c_std=c17'])
 
 exe = executable('prog', files('main.c'))
