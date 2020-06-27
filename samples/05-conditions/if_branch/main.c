@@ -10,7 +10,7 @@ int main(void)
 {
     //
     // The if statement allows you to control the execution
-    // of code based on a  particular condition. The syntax
+    // of code based on a particular condition. The syntax
     // of the if statement is as follows:
     //
     // if (expression)

@@ -25,24 +25,24 @@ int main(int argc, char **argv)
     // sizes of integer types in your system in bits.
     //
     puts("Integer Size in Bits:");
-    printf("%s%d bits\n", "unsigned char          = ", sizeof(unsigned char) * 8);
-    printf("%s%d bits\n", "signed char            = ", sizeof(signed char) * 8);
-    printf("%s%d bits\n", "short int              = ", sizeof(short int) * 8);
-    printf("%s%d bits\n", "unsigned short int     = ", sizeof(unsigned short int) * 8);
-    printf("%s%d bits\n", "unsigned int           = ", sizeof(unsigned int) * 8);
-    printf("%s%d bits\n", "int                    = ", sizeof(int) * 8);
-    printf("%s%d bits\n", "long int               = ", sizeof(long int) * 8);
-    printf("%s%d bits\n", "unsigned long long int = ", sizeof(unsigned long long int) * 8);
+    printf("%s%ld bits\n", "unsigned char          = ", sizeof(unsigned char) * 8);
+    printf("%s%ld bits\n", "signed char            = ", sizeof(signed char) * 8);
+    printf("%s%ld bits\n", "short int              = ", sizeof(short int) * 8);
+    printf("%s%ld bits\n", "unsigned short int     = ", sizeof(unsigned short int) * 8);
+    printf("%s%ld bits\n", "unsigned int           = ", sizeof(unsigned int) * 8);
+    printf("%s%ld bits\n", "int                    = ", sizeof(int) * 8);
+    printf("%s%ld bits\n", "long int               = ", sizeof(long int) * 8);
+    printf("%s%ld bits\n", "unsigned long long int = ", sizeof(unsigned long long int) * 8);
 
     puts("Standard Integer Size in Bits:");
-    printf("%s%d bits\n", "uint8_t  = ", sizeof(uint8_t) * 8);
-    printf("%s%d bits\n", "int8_t   = ", sizeof(int8_t) * 8);
-    printf("%s%d bits\n", "int16_t  = ", sizeof(int16_t) * 8);
-    printf("%s%d bits\n", "uint16_t = ", sizeof(uint16_t) * 8);
-    printf("%s%d bits\n", "uint32_t = ", sizeof(uint32_t) * 8);
-    printf("%s%d bits\n", "int32_t  = ", sizeof(int32_t) * 8);
-    printf("%s%d bits\n", "int64_t  = ", sizeof(int64_t) * 8);
-    printf("%s%d bits\n", "uint64_t = ", sizeof(uint64_t) * 8);
+    printf("%s%ld bits\n", "uint8_t  = ", sizeof(uint8_t) * 8);
+    printf("%s%ld bits\n", "int8_t   = ", sizeof(int8_t) * 8);
+    printf("%s%ld bits\n", "int16_t  = ", sizeof(int16_t) * 8);
+    printf("%s%ld bits\n", "uint16_t = ", sizeof(uint16_t) * 8);
+    printf("%s%ld bits\n", "uint32_t = ", sizeof(uint32_t) * 8);
+    printf("%s%ld bits\n", "int32_t  = ", sizeof(int32_t) * 8);
+    printf("%s%ld bits\n", "int64_t  = ", sizeof(int64_t) * 8);
+    printf("%s%ld bits\n", "uint64_t = ", sizeof(uint64_t) * 8);
 
     return EXIT_SUCCESS;
 } // end of function main

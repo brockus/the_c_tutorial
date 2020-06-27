@@ -9,8 +9,8 @@
 int main(void)
 {
     //
-    // C supports almost common arithmetic operators such as
-    // +,-,*, / and modulus operator %. The modulus operator
+    // C supports most common arithmetic operators such as
+    // +,-,*,/ and modulus operator %. The modulus operator
     // (%) returns the remainder of integer division calculation.
     // Note that the modulus operator cannot be applied to a
     // double or float.

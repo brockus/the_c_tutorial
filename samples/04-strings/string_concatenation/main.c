@@ -30,6 +30,7 @@ int main(void)
     //
     // Concatenate first and last name then output result
     //
+    strcpy(fullName, "");
     strncat(fullName, firstName, MAX_SIZE);
     strncat(fullName, ", ", MAX_SIZE);
     strncat(fullName, lastName, MAX_SIZE);

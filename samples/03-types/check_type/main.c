@@ -14,7 +14,7 @@ typedef char *cstring;
 
 //
 // This demonstrates a simple type check program where the user enters
-// data and the code will let you know what type you enterd in.
+// data and the code will let you know what type you entered in.
 //
 int main(void)
 {

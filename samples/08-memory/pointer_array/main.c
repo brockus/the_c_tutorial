@@ -33,12 +33,12 @@ int main(void)
     // > int * pa;
     // > pa = &a[0];
     //
-    // Because the  pa pointer points to the first element of
+    // Because the pa pointer points to the first element of
     // the a array, *pa is the value of the first element. And
     // (pa+1) points to the next element of the array, and (pa+i)
     // points to the ith element.
     //
-    //     (ptr)
+    //     (pa)
     //    /
     //   /
     // [0|1| | | | | | |9]
@@ -49,6 +49,8 @@ int main(void)
     //
     int arr[MAX];
     int *arrPtr;
+
+    /* arr is the same as &arr[0] */
     arrPtr = arr;
 
     /* fill array with random number between 0 and 100 */

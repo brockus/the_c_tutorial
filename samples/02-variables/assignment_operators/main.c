@@ -50,7 +50,7 @@ int main(void)
     printf("var y *= 4; y = %d\n", y);
 
     //
-    //demonstrate /= operator
+    // demonstrate /= operator
     //
     y /= 2;
     printf("var y /= 2; y = %d\n", y);

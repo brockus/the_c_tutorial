@@ -34,6 +34,10 @@ int main(void)
     //
     // prefix
     //
+    // This is the same as:
+    //      x = x + 1
+    //      y = x
+    //
     y = ++x;
     printf("x = %d\n", x);
     printf("y = %d\n", y);
@@ -41,6 +45,10 @@ int main(void)
     x = 10;
     //
     // postfix
+    //
+    // This is the same as:
+    //      y = x
+    //      x = x + 1
     //
     y = x++;
     printf("x = %d\n", x);

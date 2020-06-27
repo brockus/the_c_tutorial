@@ -17,8 +17,8 @@ int main(void)
     // 1.0, 2.5, 100.25 and so on.
     //
     puts("Floating Size in Bits:");
-    printf("%s%f\n", "float      = ", sizeof(float) * 8);
-    printf("%s%lf\n", "double     = ", sizeof(double) * 8);
-    printf("%s%llf\n", "long double = ", sizeof(long double) * 8);
+    printf("%s%ld\n", "float       = ", sizeof(float) * 8);
+    printf("%s%ld\n", "double      = ", sizeof(double) * 8);
+    printf("%s%ld\n", "long double = ", sizeof(long double) * 8);
     return EXIT_SUCCESS;
 }// end of function main
