@@ -14,7 +14,7 @@ int main(void)
     // which is known as if else statement. The following
     // illustrates the syntax of the if else statement:
     //
-    // if(expression)
+    // if (expression)
     // {
     //     /* code block of if statement */
     // }

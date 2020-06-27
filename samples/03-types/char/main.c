@@ -37,7 +37,7 @@ int main(void)
     // demonstrates how to print characters in C.
     //
     char ch = 'A';
-    printf("%s%c\n", "char letar  => ", ch);
+    printf("%s%c\n", "char letter => ", ch);
     printf("%s%d\n", "char number => ", ch);
 
     return EXIT_SUCCESS;
