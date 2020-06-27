@@ -8,8 +8,8 @@
 int main(void)
 {
     //
-    // C provides developers with special a types called enumerated
-    // types or enum to declare symbolic names that represent integer
+    // C provides developers with special types called enumerated
+    // types or enums to declare symbolic names that represent integer
     // constants. Its main purpose is to enhance the readability of
     // the code. An enumeration consists of a group of symbolic
     // integers.
@@ -31,7 +31,7 @@ int main(void)
     //
     // ask user to choose color
     //
-    printf("%s", "Please choose your favorite color: (1. red, 2. green, 3. blue): ");
+    printf("%s", "Please choose your favorite color: (0-red, 1-green, 2-yellow, 3-blue): ");
     scanf("%d", &favoriteColor);
 
     //
@@ -52,7 +52,7 @@ int main(void)
         printf("your favorite color is Blue");
         break;
     default:
-        printf("you did not choose any color");
+        printf("you did not choose a valid color");
     }
     return EXIT_SUCCESS;
 } // end of function main

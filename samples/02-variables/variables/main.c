@@ -9,9 +9,9 @@
 int main(void)
 {
     //
-    // here you see three variables of type integer. As you can see
-    // we assigned values to each of them on the same line as there
-    // declared.
+    // here you see three variables of type integer. As you can see,
+    // we assigned values to each of them on the same line as they
+    // are declared.
     //
     int leftNumber = 5;
     int rightNumber = 2;
@@ -25,8 +25,8 @@ int main(void)
     printf("%s %i", "So when both are added it's", result);
 
     //
-    // But it's also possable to declared a variable on one line
-    // and assigned a value to it later like this example here.
+    // But it's also possible to declare a variable on one line
+    // and assigned a value to it later, like this example here.
     //
     int someValue;
     someValue = 24;

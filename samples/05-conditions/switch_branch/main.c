@@ -52,7 +52,8 @@ int main(void)
         printf("you chose blue color\n");
         break;
     default:
-        printf("you did not choose any color\n");
+        printf("you did not choose a valid color\n");
+        break;
     }
     return EXIT_SUCCESS;
 } // end of function main

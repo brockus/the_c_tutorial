@@ -39,7 +39,7 @@ int main(void)
     int secret, input = 0;
     int times = 1;
 
-    /* get a random number between 0 and 10 */
+    /* get a random number between 1 and 10 */
     srand((unsigned int)time(NULL));
     secret = rand() % 10 + 1;
 
@@ -49,8 +49,10 @@ int main(void)
 
     while (input != secret && times <= ALLOWED_TIMES)
     {
-        printf("%s", "Please enter a number (0 - 10): ");
-        scanf("%d", &input);
+        do {
+            printf("%s", "Please enter a number (1 - 10): ");
+            scanf("%d", &input);
+        } while (input < 1 || input > 10);
 
         if (input == secret)
         {
@@ -67,9 +69,9 @@ int main(void)
         times++;
     }
 
-    if (times == ALLOWED_TIMES)
+    if (input != secret)
     {
-        printf("You lose! The secret number is %d", secret);
+        printf("You lose! The secret number is %d\n", secret);
     }
     return EXIT_SUCCESS;
 } // end of function main

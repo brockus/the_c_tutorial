@@ -36,6 +36,6 @@ int main(int argc, char **argv)
     // and parameter interchangeably.
     //
     m = max(x, y);
-    printf("max of %d and %d is %d", x, y, m);
+    printf("max of %d and %d is %d\n", x, y, m);
     return EXIT_SUCCESS;
 } // end of function main

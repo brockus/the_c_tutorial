@@ -46,7 +46,7 @@ int main(void)
     if (fclose(fPtr) == EOF)
     {
         /* Handle error */
-        puts("Was not is closed before returning to the caller!");
+        puts("Was not closed before returning to the caller!");
         return EXIT_FAILURE;
     }
     return EXIT_SUCCESS;

@@ -28,12 +28,18 @@ int main(void)
     // You should always check the return pointer from the malloc()
     // function for NULL. See the following example:
     //
-    int *iPtr = (int *)malloc(SIZE * sizeof(iPtr));
+    int *iPtr = (int *)malloc(SIZE * sizeof(*iPtr));
     if (iPtr == NULL)
     {
         fprintf(stderr, "%s\n" ,"error occurred: out of memory");
         return EXIT_FAILURE;
     }
+    else
+    {
+        printf("iPtr points to %ld bytes of memory\n",
+               SIZE * sizeof(*iPtr));
+    }
+    
     /* further processing */
     /* ... */
     free(iPtr);

@@ -13,7 +13,7 @@ int main(void)
     // can use if else-if statement. The syntax of the
     // if else if statement is as follows:
     //
-    // if(condition-1)
+    // if (condition-1)
     // {
     //     /* code block if condition-1 is true */
     // }

@@ -23,8 +23,8 @@
 // > char key = 'A';
 //
 // Because the char type is the integer type, you can initialize
-// or assign a char variable an integer. However, it is no
-// recommended since the code maybe not portable.
+// or assign a char variable an integer. However, it is not
+// recommended since the code may not be portable.
 //
 // > ch = 66;
 //
